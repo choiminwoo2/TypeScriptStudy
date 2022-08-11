@@ -5,11 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "comp": "npx tsc"
+    "comp": "npx tsc",
+    "tsx":  "ts-node"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1"
   }
 }

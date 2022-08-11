@@ -4,7 +4,7 @@ interface IObj{
     id : string
 }
 
-const obj1 : IObj = {name: '123', id:'13', isName : true}
+const obj1 : IObj = {name: '123', id:'13'}
 const obj123 = {name: '123', id:'13', good : true}
 const obj2 : IObj = obj123;
 
